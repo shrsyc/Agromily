@@ -11,4 +11,4 @@
 
 ### Demo Screeshots
 
-![Pfolio Desktop Demo](PhotoGrid_Plus_1669576284864.png"Desktop Demo")
+![Pfolio Desktop Demo](./PhotoGrid_Plus_1669576284864.png"Desktop Demo")
