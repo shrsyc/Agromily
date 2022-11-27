@@ -1,2 +1,1 @@
-# demoweb
-platform to create a community for the farmers.
+<a href="https://shrsyc.github.io/demoweb/"><strong>➥ Live Demo</strong></a>
