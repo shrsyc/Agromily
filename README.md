@@ -11,4 +11,5 @@
 
 ### Demo Screeshots
 
-![PhotoGrid_Plus_1669576284864](https://user-images.githubusercontent.com/99862109/204155354-718f40e3-d791-41df-bfbe-bd191efb354c.png)
+
+![desktop](https://user-images.githubusercontent.com/99862109/204155547-e92be6f2-bd22-4b0b-aa42-a52fbe856ba1.png)
