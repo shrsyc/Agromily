@@ -8,7 +8,7 @@
   }
   
   body{
-    background: url(/miniProject-23-agro/images/bg.png);
+    background: url(../images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
