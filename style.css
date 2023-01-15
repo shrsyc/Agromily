@@ -17,7 +17,7 @@ ul{
 a{
 	text-decoration: none;
 }
-.container{
+.hcontainer{
 	max-width: 1170px;
 	margin:auto;
 }
@@ -162,7 +162,7 @@ body{
 	padding:0;
 	box-sizing: border-box;
 }
-.container{
+.fcontainer{
 	max-width: 1170px;
 	margin:auto;
 }
@@ -597,3 +597,134 @@ ul{
 	align-items: center;
 	background-color: #000;;
 }
+
+
+
+h3, .h3{
+	font-family: "Oswald", sans-serif !important;
+	color: #fff;
+	text-transform: uppercase; }
+  
+  .text-black {
+	color: rgb(244, 234, 234); }
+  
+  .content {
+	padding: 7rem 0;
+	font-family: "Roboto Mono", monospace;
+	background-color: rgb(0, 0, 0);
+	line-height: 1.5; 
+  }
+
+  .container{
+	display: flex;
+  justify-content: center;
+  
+  }
+  
+  .thin-heading {
+	font-weight: 300;
+	font-size: 40px; }
+  
+  .form-control {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding-left: 0;
+	padding: 0;
+	border-radius: 0px; 
+	background-color: #000;
+  }
+	.form-control:active, .form-control:focus {
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	  border-color: #000; }
+  
+  .col-form-label {
+	color: #000; }
+  
+  .btn, .form-control, .custom-select {
+	height: 50px; }
+  
+  .custom-select:active, .custom-select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-color: #000; }
+  
+  
+  
+  .btn {
+	border: 1px solid #cccccc;
+	border-radius: 15px; 
+}
+	.btn.btn-primary {
+	  background: #000;
+	  color: #fff;
+	  padding: 15px 10px; }
+	.btn:hover {
+	  color: rgb(132, 205, 239);
+	 }
+	.btn:active, .btn:focus {
+	  outline: none;
+	  -webkit-box-shadow: none;
+	  box-shadow: none; }
+  
+  .box {
+	padding: 40px;
+	background: #fff;
+	-webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+	box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); }
+	.box h3 {
+	  font-size: 14px;
+	  margin-bottom: 30px;
+	  text-align: center; }
+  
+  label.error {
+	font-size: 12px;
+	color: red; }
+  
+  #message {
+	resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+	display: none; }
+  
+  #form-message-warning {
+	color: #B90B0B; }
+  
+  #form-message-success {
+	color: #55A44E;
+	font-size: 18px;
+	font-weight: bold; }
+  
+  .submitting {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	display: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000; }
+  
+	input[type="text"], textarea {
+  
+	  background-color : #000; 
+	}
+  
+	.col-md-4{
+		padding-right: 100px;
+		padding-bottom: 50px;
+	}
+
+	.col-md-6{
+		padding-right: 100px;
+		padding-bottom: 50px;
+	}
+
+	.col-12{
+		padding-top: 15px;
+	}
+
+	input, select, textarea{
+		color: #fff;
+	}
