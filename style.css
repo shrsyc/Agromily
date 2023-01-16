@@ -348,10 +348,10 @@ ul{
 	box-sizing: border-box;
 	margin: 30px;
 	position: relative;
-  background-color:#8fea9a;
+  background-color:#222221;
 }
 .s-box img{
-	height: 75px;
+	height: 200px;
 }
 .s-box h1{
 	color:#576975;
@@ -454,6 +454,11 @@ ul{
 	height: auto;
 	border-radius: 15px;
 	margin-bottom: 15px;
+}
+
+.team-content .icons img{
+	height: 50px;
+	width: 50px;
 }
 .center h1{
 	color: #fff;
