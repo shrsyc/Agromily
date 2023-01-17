@@ -1,20 +1,3 @@
-
-// var val1 = document.getElementById("fname");
-// var val2 = document.getElementById("lanme");
-// var val3 = document.getElementById("dob");
-// var val4 = document.getElementById("phonenumber");
-// var val5 = document.getElementById("housenumber");
-// var val6 = document.getElementById("streetnumber");
-// var val7 = document.getElementById("city");
-// var val8 = document.getElementById("taluka");
-// var val9 = document.getElementById("district");
-// var val10 = document.getElementById("state");
-// var val11 = document.getElementById("land_district");
-// var val12 = document.getElementById("land_taluka");
-// var val13 = document.getElementById("land_village");
-// var val14 = document.getElementById("land_surveynumber");
-// var val15 = document.getElementById("land_hisa");
-
 document.getElementById("fname").onchange = check1;
 document.getElementById("lname").onchange = check2;
 // document.getElementById("dob").onchange=check3;
