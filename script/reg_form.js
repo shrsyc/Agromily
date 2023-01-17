@@ -214,7 +214,7 @@ function check14() {
 
 function check15() {
     var val15 = document.getElementById("land_hisa");
-    var pos15 = val15.value.search(/\d{10}$/);
+    var pos15 = val15.value.search(/\d?/);
 
     if (pos15 != 0) {
         alert("invalid pattern enter number only");

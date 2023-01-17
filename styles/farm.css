@@ -1,0 +1,82 @@
+.header{
+    --color-1: #222221;
+    height: 80px;
+}
+ body{
+	font-family: sans-serif;
+	background-color: #000;
+} 
+.header{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.hcontainer{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.align-items-center{
+	align-items: center;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+/*header*/
+.header{
+	background-color: var(--color-1);
+	padding: 8px 0;
+	line-height: 1.5;
+}
+
+.header .logo ul li{
+ display: inline-block;
+	margin-left: 0px;
+}
+.header .nav{
+	padding:0px 0px;
+}
+.header .logo ul li i{
+  display: block;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize; 
+  padding: 5px 0;
+}
+.header .logo ul li img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.header .nav ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.header .nav ul li a{
+	display: block;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	padding: 10px 0;
+	transition: all 0.5s ease;
+}
+
+.header .nav ul li a:hover{
+	color: #E5D9B6;
+}
+
+#map{
+    height: 800px;
+    width: 800px;
+    margin:5rem auto;
+}

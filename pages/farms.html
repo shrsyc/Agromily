@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <title>Maps Project</title>
+
+    <link rel="stylesheet" href="../styles/farm.css">
+      
+
 </head>
 <body>
-    <h1> location of farms</h1>
+    <header class="header">
+        <div class="hcontainer">
+            <div class="row align-items-center justify-content-between">
+                <div class="logo">
+                   <ul>
+                     <li><a href="../index.html"><img src="../images/logo.png" alt="Agromily_logo" width="41" ></a></li>
+                   </ul>
+    
+                </div>
+               
+                <nav class="nav">
+                   <ul>
+                      <li><a href="../index.html" class="active">home</a></li>
+                      
+                   </ul>
+                </nav>
+            </div>
+        </div>
+     </header>
+
+    
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="../script/farm.js"></script>
 </body>
 </html>
