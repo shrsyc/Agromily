@@ -18,9 +18,9 @@ const farm1 = L.marker([12.962413, 76.171714]).addTo(mymap);//12.962413, 76.1717
 
 let template1 = `
 
-<h3>SIDDA'S FARM</h3>
+<h3>Rameshwara Vanna</h3>
 <div style="text-align:center">
-    <img width="150" height="150"src="../images/avatar1.png"/>
+    <img width="150" height="150"src="../images/1.png"/>
 </div>
 `
 farm1.bindPopup(template1);
@@ -41,9 +41,9 @@ const farm2 = L.marker([13.003196, 76.176706]).addTo(mymap);//12.962413, 76.1717
 
 let template2 = `
 
-<h3>SIDDA'S FARM</h3>
+<h3>Garden Farm</h3>
 <div style="text-align:center">
-    <img width="150" height="150"src="../images/avatar1.png"/>
+    <img width="150" height="150"src="../images/2.png"/>
 </div>
 `
 farm2.bindPopup(template2);
@@ -66,9 +66,9 @@ const farm3 = L.marker([12.975989, 76.065640]).addTo(mymap);//12.962413, 76.1717
 
 let template3 = `
 
-<h3>SIDDA'S FARM</h3>
+<h3>Virandavanna</h3>
 <div style="text-align:center">
-    <img width="150" height="150"src="../images/avatar1.png"/>
+    <img width="150" height="150"src="../images/3.png"/>
 </div>
 `
 farm3.bindPopup(template3);
@@ -91,9 +91,9 @@ const farm4 = L.marker([13.041216, 76.046588]).addTo(mymap);//12.962413, 76.1717
 
 let template4 = `
 
-<h3>SIDDA'S FARM</h3>
+<h3>Hoysala Farm</h3>
 <div style="text-align:center">
-    <img width="150" height="150"src="../images/avatar1.png"/>
+    <img width="150" height="150"src="../images/4.png"/>
 </div>
 `
 farm4.bindPopup(template4);
@@ -116,9 +116,9 @@ const farm5 = L.marker([12.983908, 76.002583]).addTo(mymap);//12.962413, 76.1717
 
 let template5 = `
 
-<h3>SIDDA'S FARM</h3>
+<h3>Somnatha garden</h3>
 <div style="text-align:center">
-    <img width="150" height="150"src="../images/avatar1.png"/>
+    <img width="150" height="150"src="../images/5.png"/>
 </div>
 `
 farm5.bindPopup(template4);
