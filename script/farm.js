@@ -14,7 +14,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 //---------------------------------------------------------------------------------------------------------
 
-const farm1 = L.marker([12.962413, 76.171714]).addTo(mymap);//12.962413, 76.171714
+const farm1 = L.marker([12.962413, 76.171714]).addTo(mymap);
 
 let template1 = `
 
@@ -37,7 +37,7 @@ const circle1 = L.circle([12.962413, 76.171714
 
 //----------------------------------------------------------------------------------------------------
 
-const farm2 = L.marker([13.003196, 76.176706]).addTo(mymap);//12.962413, 76.171714
+const farm2 = L.marker([13.003196, 76.176706]).addTo(mymap);
 
 let template2 = `
 
@@ -62,7 +62,7 @@ const circle2 = L.circle([13.003196, 76.176706
 //---------------------------------------------------------------------------------------------------------
 
 
-const farm3 = L.marker([12.975989, 76.065640]).addTo(mymap);//12.962413, 76.171714
+const farm3 = L.marker([12.975989, 76.065640]).addTo(mymap);
 
 let template3 = `
 
@@ -87,7 +87,7 @@ const circle3 = L.circle([12.975989, 76.065640
 //---------------------------------------------------------------------------------------------------------
 
 
-const farm4 = L.marker([13.041216, 76.046588]).addTo(mymap);//12.962413, 76.171714
+const farm4 = L.marker([13.041216, 76.046588]).addTo(mymap);
 
 let template4 = `
 
@@ -112,7 +112,7 @@ const circle4 = L.circle([13.041216, 76.046588
 //---------------------------------------------------------------------------------------------------------
 
 
-const farm5 = L.marker([12.983908, 76.002583]).addTo(mymap);//12.962413, 76.171714
+const farm5 = L.marker([12.983908, 76.002583]).addTo(mymap);
 
 let template5 = `
 
@@ -121,7 +121,7 @@ let template5 = `
     <img width="150" height="150"src="../images/5.png"/>
 </div>
 `
-farm5.bindPopup(template4);
+farm5.bindPopup(template5);
 
 const circle5 = L.circle([12.983908, 76.002583
 
