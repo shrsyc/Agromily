@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Market Form</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/market.css">
+   
 </head>
+
 <body>
-    <h1>MARKET</h1>
+    <form action="../php/market.php" method="post">
+        <div class="title">
+            <h2>MARKET</h2>
+        </div>
+        <div class="half">
+            <div class="item">
+                <label >NAME</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="item">
+                <label >LAST NAME</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+        </div>
+
+        <div class="half">
+            <div class="item">
+                <label for="phonenumber">PHONE NUMBER</label>
+                <input type="text" id="phonenumber" name="phonenumber" required>
+            </div>
+            <div class="item">
+                <label for="adharcard">ADHAR CARD</label>
+                <input type="text" id="aadharcard" name="aadharcard" required>
+            </div>
+        </div>
+
+        <div class="half">
+            <div class="item">
+                <label for="address">ADDRESS</label>
+                <input type="text" id="addresses" name="addresses" required>
+            </div>
+            <div class="item">
+                <label for="help">TYPE OF HELP</label>
+                <input type="text" id="help" name="help" required>
+            </div>
+
+        </div>
+
+        <div class="action">
+            <input type="submit" value="SEND MESSAGE">
+            <input type="reset" value="RESET">
+        </div>
+
+    </form>
+
+    <script src="../script/market.js"></script>
+    
+
+    <!-- <script>
+        const form = document.querySelector("form"),
+            nextBtn = form.querySelector(".nextBtn"),
+            backBtn = form.querySelector(".backBtn"),
+            allInput = form.querySelectorAll(".first input");
+        nextBtn.addEventListener("click", () => {
+            allInput.forEach(input => {
+                if (input.value != "") {
+                    form.classList.add('secActive');
+                } else {
+                    form.classList.remove('secActive');
+                }
+            })
+        })
+        backBtn.addEventListener("click", () => form.classList.remove('secActive'));
+    </script> -->
+    <script type="text/javascript" src="../script/market.js"></script>
 </body>
+
 </html>
